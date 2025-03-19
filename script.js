@@ -11,10 +11,9 @@
         }
     }
 
-    
     console.log(""); 
     console.log("Додатковий фільтр (імена, що закінчуються на 'a'):");
-    
+
     for (let i = 0; i < names.length; i++) {
         let lastLetter = names[i].charAt(names[i].length - 1).toLowerCase();
         if (lastLetter === 'a') {
